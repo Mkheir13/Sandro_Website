@@ -1,0 +1,57 @@
+body {
+    background-image: url("jujutsubackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 98vw;
+    height: 98vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#personnages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+}
+
+#Gojo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #00d5f0;
+    height : 50vh;
+    border-radius: 10px;
+    filter: drop-shadow(0 0 0.75rem #0096b6)
+
+}
+
+#Gojo img {
+    width: 80%;
+    height: auto;
+    border-radius: 10px;
+}
+
+#Gojo h1 {
+    color: white;
+    font-size: 2em;
+}
+
+#Gojo p {
+    color: white;
+    font-size: 1em;
+    margin : 5%;
+}
+
+#Gojo a {
+    color: white;
+    font-size: 1em;
+    margin : 5%;
+    background: #ec8af4;
+    border-radius: 10px;
+    padding: 3%;
+}
